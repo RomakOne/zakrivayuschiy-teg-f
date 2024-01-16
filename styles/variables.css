@@ -3,8 +3,13 @@
     --main-font-family: 'Inter-Variable', Arial, Helvetica, sans-serif;
     --main-font-text-wgth: 400;
     --main-font-title-wgth: 700;
-    --accent-font-family: 'PressStart2P' Arial, Helvetica, sans-serif;
+    --accent-font-family: 'PressStart2P';
+    --content-inline-size: clamp(375px, 16.285rem + 30.516vw, 43.75rem);
 
+
+    --light-repeating-linear-gradient: #d3d3d3;
+    --light-linear-gradient: linear-gradient(#e7e7e7, #1a1a1a);
     --primary-background-color: #fff;
     --secondary-color: #000;
+    --content-background-color: #fff;
 }
