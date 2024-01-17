@@ -9,6 +9,8 @@
     --main-font-title-wgth: 700;
     --primary-background-color: #fff;
     --secondary-color: #000;
+    --content-background-color: #fff;
+    --content-color-border: #000;
 }
 
 :root.theme-dark {
@@ -16,7 +18,8 @@
     --main-font-title-wgth: 785;
     --primary-background-color: #000;
     --secondary-color: #00CC14;
-
+    --content-background-color: #000;
+    --content-color-border: #00CC14;
     --light-repeating-linear-gradient: #000;
     --light-linear-gradient: linear-gradient(#007f0c, #004306);
 }
