@@ -140,6 +140,9 @@
 /*Card*/
 
 .card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
   inline-size: var(--content-inline-size);
 }
 
@@ -161,6 +164,7 @@
 
 .card__image_container {
   position: relative;
+  border: 2px solid var(--content-color-border);
 }
 
 .card__image_lable {
@@ -194,7 +198,6 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border: 2px solid var(--content-color-border);
 }
 
 .card__text_container {
@@ -461,4 +464,38 @@
 
 .pop-up__floppy-icon {
   inline-size: 63px;
+}
+
+/*Filters*/
+
+.filter-grayscale {
+  filter: grayscale(1)
+}
+
+.filter-contrast {
+  filter: contrast(300%);
+}
+
+.filter-blur {
+  filter: blur(0.15rem);
+}
+
+.filter-sepia {
+  filter: sepia(1);
+}
+
+.filter-saturate {
+  filter: saturate(10);
+}
+
+.filter-opacity {
+  filter: opacity(50%);
+}
+
+.filter-huerotate {
+  filter: hue-rotate(-90deg);
+}
+
+.filter-multiply {
+  filter: invert(1) brightness(500%) saturate(60%) hue-rotate(90deg);
 }
