@@ -169,6 +169,7 @@
 
 .card__image_lable {
   position: absolute;
+  z-index: 1;
   top: 25px;
   right: 25px;
   color: var(--secondary-color);
