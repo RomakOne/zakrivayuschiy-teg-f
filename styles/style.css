@@ -48,7 +48,7 @@
   border: 2px solid var(--content-color-border);
   inline-size: var(--content-inline-size);
   padding: 136px 0 25px 0;
-  margin-bottom: 104px;
+  margin-bottom: 100px;
 }
 
 .header__logo {
@@ -59,7 +59,7 @@
 
 .header__title {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
 .theme-menu__list {
@@ -500,3 +500,13 @@
 .filter-multiply {
   filter: invert(1) brightness(500%) saturate(60%) hue-rotate(90deg);
 }
+
+/*
+.pixel-perfect-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    filter: invert();
+  }*/

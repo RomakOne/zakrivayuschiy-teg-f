@@ -5,12 +5,19 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light  {
+    --main-font-family: 'Inter-Variable', Arial, Helvetica, sans-serif;
     --main-font-text-wgth: 400;
     --main-font-title-wgth: 700;
+    --accent-font-family: 'PressStart2P';
+    --content-inline-size: clamp(375px, 16.285rem + 30.516vw, 43.75rem);
+    --light-repeating-linear-gradient: #d3d3d3;
+    --light-linear-gradient: linear-gradient(#e7e7e7, #1a1a1a);
     --primary-background-color: #fff;
     --secondary-color: #000;
     --content-background-color: #fff;
     --content-color-border: #000;
+    --heart-fill: #FF0000;
+    --button-hover-background-color: #fff;
 }
 
 :root.theme-dark {
@@ -23,4 +30,18 @@
     --light-repeating-linear-gradient: #000;
     --light-linear-gradient: linear-gradient(#007f0c, #004306);
     --button-hover-background-color: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-font-text-wgth: 468;
+        --main-font-title-wgth: 785;
+        --primary-background-color: #000;
+        --secondary-color: #00CC14;
+        --content-background-color: #000;
+        --content-color-border: #00CC14;
+        --light-repeating-linear-gradient: #000;
+        --light-linear-gradient: linear-gradient(#007f0c, #004306);
+        --button-hover-background-color: #00CC14;
+    }
 }
