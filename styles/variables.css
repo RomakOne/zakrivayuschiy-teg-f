@@ -5,7 +5,6 @@
     --main-font-title-wgth: 700;
     --accent-font-family: 'PressStart2P';
     --content-inline-size: clamp(375px, 16.285rem + 30.516vw, 43.75rem);
-
     --light-repeating-linear-gradient: #d3d3d3;
     --light-linear-gradient: linear-gradient(#e7e7e7, #1a1a1a);
     --primary-background-color: #fff;
@@ -13,6 +12,5 @@
     --content-background-color: #fff;
     --content-color-border: #000;
     --heart-fill: #FF0000;
-
     --button-hover-background-color: #fff;
 }
